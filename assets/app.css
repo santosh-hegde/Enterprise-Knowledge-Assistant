@@ -1,0 +1,110 @@
+html, body, [data-testid="stAppViewContainer"] {
+    background:
+        radial-gradient(1200px 500px at 10% -10%, rgba(61, 220, 151, 0.10), transparent 50%),
+        radial-gradient(900px 400px at 100% 0%, rgba(91, 140, 255, 0.08), transparent 45%),
+        #0e1116;
+}
+
+.block-container {
+    max-width: 860px;
+    padding-top: 1.4rem;
+    padding-bottom: 6rem;
+}
+
+[data-testid="stHeader"] {
+    background: transparent;
+}
+
+[data-testid="stToolbar"] {
+    right: 1rem;
+}
+
+.hero {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 18px 20px;
+    margin-bottom: 8px;
+    border: 1px solid rgba(232, 237, 244, 0.08);
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.015));
+}
+
+.hero-mark {
+    flex: 0 0 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #062016;
+    background: linear-gradient(135deg, #3ddc97, #7af0c0);
+}
+
+.hero h1 {
+    font-size: 1.35rem;
+    margin: 0 0 4px 0;
+    font-weight: 650;
+}
+
+.hero p {
+    margin: 0;
+    color: rgba(232, 237, 244, 0.62);
+    font-size: 0.92rem;
+}
+
+.suggest-label {
+    color: rgba(232, 237, 244, 0.55);
+    font-size: 0.82rem;
+    margin: 18px 0 8px 0;
+}
+
+div[data-testid="stChatMessage"] {
+    border: 1px solid rgba(232, 237, 244, 0.06);
+    border-radius: 14px;
+    background: rgba(23, 28, 36, 0.65);
+    padding: 4px 6px;
+}
+
+.source-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.source-chip {
+    font-size: 0.75rem;
+    padding: 3px 9px;
+    border-radius: 999px;
+    color: #b8f5d8;
+    background: rgba(61, 220, 151, 0.12);
+    border: 1px solid rgba(61, 220, 151, 0.22);
+}
+
+.rewrite {
+    font-size: 0.78rem;
+    color: rgba(232, 237, 244, 0.48);
+    margin-top: 6px;
+}
+
+.doc-chip {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+    margin-bottom: 6px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(232, 237, 244, 0.07);
+    color: rgba(232, 237, 244, 0.82);
+}
+
+.sidebar-kicker {
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(232, 237, 244, 0.45);
+    margin-bottom: 4px;
+}
+
+footer { visibility: hidden; }
